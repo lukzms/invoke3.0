@@ -1,0 +1,128 @@
+@media screen and (max-width: 360px){
+    
+
+
+
+nav{
+    height: 60px;
+    margin-bottom: 100px;
+}
+nav img{
+    height: 40px;
+}
+nav h1{
+    font-size: 15px;
+
+}
+header{
+    width: 90%;
+    flex-direction: column;
+    position: relative;
+}
+.header-content h2{
+    font-size: 30px
+}
+.header-img img{
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    right: 1px;
+    opacity: 0.1;
+}
+section{
+    width: 90%;
+ 
+}
+.apresentacao{
+    flex-direction: column;
+}
+.conte-conosco{
+    width: 100%;
+}
+.conte-conosco h3{
+    font-size: 20px;
+    
+}
+
+
+.conte-conosco img{
+    display: none;
+}
+
+    .filosofia{
+        width: 90%;
+    }
+    .filosofia p{
+        font-size: 18px;
+        text-align: center;
+    }
+    .barra{
+        height: 2px;
+        width: 80%;
+        background-color: rgb(2, 0, 36);
+        margin: 100px auto;
+    }
+    .produtos h3{
+        font-size: 20px;
+        padding: 10px 50px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .produtos p {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    .produtos .banners{
+        justify-content: space-around;
+ 
+    }
+    .banner{
+
+        margin: 100px 0;
+        width: 25%;
+        height: 180px;
+
+    }
+    .banner p{
+        font-size: 15px;
+        padding: auto;
+        margin-bottom: 10px;
+    }
+    .banner input{
+        margin: 0;
+        padding: 15px;
+    }
+    .projetos{
+        margin: 50px 0;
+
+    }
+    .projetos h3{
+        font-size: 20px;
+    }
+    .banner-projetos{
+        width: 90%;
+        margin-top: 50px;
+        justify-content: center;
+    }
+    .banner-projetos img{
+        width: 90%;
+    }
+    footer{
+        width: 90%;
+    }
+    footer h4{
+        margin-top: 150px;
+        margin-bottom: 50px;
+        font-size: 25px;
+    }
+    .contatos{
+        width: 60%;
+    }
+    .formulario{
+        display: none;
+    }
+    .formulario-fixo{
+        display: block;
+    }
+
+}
